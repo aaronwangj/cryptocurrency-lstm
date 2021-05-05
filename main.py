@@ -24,7 +24,7 @@ x_train, y_train = scaling(data)
 model = lstm(x_train.shape)
 
 model.compile(optimizer='adam', loss='mean_squared_error')
-model.fit(x_train, y_train, epochs=10, batch_size=32)
+model.fit(x_train, y_train, epochs=20, batch_size=32)
 
 # Testing the model
 test_start = dt.datetime(2010, 1, 1)
