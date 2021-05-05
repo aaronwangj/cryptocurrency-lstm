@@ -2,11 +2,6 @@
 
 This model uses time series data and a specific type of recurrent neural network to learn and predict cryptocurrency prices based on historical crytocurrency price trends.
 
-## Overview 
-
-<p align="center">
-<img src="/assets/lstm.gif?raw=true" align="middle" />  </p>
-
 ## Requirements
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the application's dependencies.
